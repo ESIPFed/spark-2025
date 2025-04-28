@@ -2,7 +2,7 @@ repo_directory: html
 name: Spark @ AGU
 apply:
   url: '#'
-  title: Application coming soon
+  title: THIS SITE IS UNDER CONSTRUCTION
 hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
   description: An awesome learning event.
@@ -19,16 +19,13 @@ banner:
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
 about:
-  description: Hackweeks are participant-driven events that strive to create
-    welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science
-  learn_more: https://escience.washington.edu/using-data-science/hackweeks
+  description: ADD DESCRIPTION FOR SPARK @ AGU
+  learn_more: https://www.esipfed.org/spark-agu/
   links:
     - url: '#'
       title: A sample link
       new_window: True
-applicant_info: UW Hackweek 2023 will take place in October 2023 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2023.
+applicant_info: ADD SPEAKER APPLICATION INFORMATION AND LINKS
 # Redirect the site to a different domain.
 #redirect:
 #    url: https://go.somehwere.else
@@ -39,14 +36,14 @@ schedule:
 sponsors:
   description: ''
   organizations:
-  - name: eScience Institute
+  - name: Earth Science Information Partners (ESIP)
     website: ''
-    logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+    logo_url: https://www.esipfed.org/
 footer:
   social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/uwhackweek/
+    link: https://github.com/ESIPFed
 _copy_without_render:
 - assets
 _extensions:
