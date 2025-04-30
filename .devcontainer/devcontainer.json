@@ -1,15 +1,16 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "postCreateCommand": "mamba env create -f environment.yml && mamba activate base",
+    "name": "Python with Mamba",
+    "build": { 
+        "dockerfile": "Dockerfile" 
+    },
     "customizations": {
         "vscode": {
             "extensions": [
                 "ms-python.python",
                 "ms-python.vscode-pylance"
-                // Add other VS Code extensions you need here
             ]
         }
     },
-    "forwardPorts": [],
-    "portsAttributes": {}
+    "postCreateCommand": "micromamba install -y -n base -f environment.yml && micromamba clean -a -y",
+    "remoteUser": "vscode"
 }
