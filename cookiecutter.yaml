@@ -20,7 +20,7 @@ banner:
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
 about:
-  description: ADD DESCRIPTION FOR SPARK @ AGU
+  description: Ready to <i>spark</i> conversation? Spark@AGU talks are a dynamic five minutes of exactly 20 auto-advancing slides! This isn't your typical research presentation. Speakers craft engaging visuals and accessible language on any topic they choose. It's quick, bold, and creative – leave the jargon behind!
   learn_more: https://www.esipfed.org/spark-agu/
   links:
     - url: '#'
@@ -37,9 +37,9 @@ schedule:
 sponsors:
   description: ''
   organizations:
-  - name: Earth Science Information Partners (ESIP)
-    website: ''
-    logo_url: https://www.esipfed.org/
+  - name: NASA’s Earth Science Division
+    website: https://science.nasa.gov/earth-science/
+    logo_url:
 footer:
   social:
   - icon: github
