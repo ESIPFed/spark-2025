@@ -3,7 +3,7 @@ name: Spark @ AGU
 apply:
   url: '#'
   title: THIS SITE IS UNDER CONSTRUCTION
-hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
+#hackweek_mission: https://uwhackweek.github.io/hackweeks-as-a-service/mission.html
 banner:
   description: An awesome learning event.
   start_date: XX Month
@@ -15,8 +15,8 @@ banner:
   # - url: intro.html
   #   title: Event Jupyter Book
   #   new_window: false
-  image: https://geohackweek.github.io/assets/images/banner.jpg
-  #image: {{ cookiecutter.repo_directory }}/assets/images/Spark-NewOrleans-Graphic.png
+  #image: https://geohackweek.github.io/assets/images/banner.jpg
+  image: https://github.com/ESIPFed/spark-2025/images/Spark-NewOrleans-Graphic.png
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
 about:
