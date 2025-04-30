@@ -16,7 +16,7 @@ banner:
   #   title: Event Jupyter Book
   #   new_window: false
   #image: https://geohackweek.github.io/assets/images/banner.jpg
-  image: https://raw.githubusercontent.com/ESIPFed/spark-2025/images/Spark-NewOrleans-Graphic-Banner.png
+  image: https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/Spark-NewOrleans-Graphic-Banner.png
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
 about:
