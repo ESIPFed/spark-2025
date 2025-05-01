@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ cookiecutter.banner.description }}">
     <meta name="author" content="{{ cookiecutter.name }}">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/SMALL-E%20swoop-color.png">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/esip-favicon.png">
 
     <!-- Google Font -->
     <link
@@ -304,7 +304,7 @@
                         </div>
                         {%- if 'leads' in content and content['leads']|length > 0 %}
                         <div class="profile">
-                            <h6 class="mb-1 mt-2"> Tutorial Lead(s)</h6>
+                            <h6 class="mb-1 mt-2"> Spark Presenter(s) </h6>
                             {%- for lead in content['leads'] %}
                             {%- set person = cookiecutter.team['people']|selectattr('title', '==', lead)|list %}
                             {%- if person|length > 0 %}

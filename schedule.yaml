@@ -8,46 +8,46 @@ tabs:
     time: 19:00 - 19:10
     leads:
     - Aaron Friesz
-  - title: Talk #1
-    description: Talk #1 description
+  - title: Talk 1
+    description: Talk 1 description
     time: 19:10 - 19:15
     leads:
-    - Speaker #1
-  - title: Talk #2
-    description: Talk #2 description
+    - Speaker 1
+  - title: Talk 2
+    description: Talk 2 description
     time: 19:20 - 19:25
     leads:
-    - Speaker #2
-  - title: Talk #3
-    description: Talk #3 description
+    - Speaker 2
+  - title: Talk 3
+    description: Talk 3 description
     time: 19:30 - 19:35
     leads:
-    - Speaker #3
-  - title: Talk #4
-    description: Talk #4 description
+    - Speaker 3
+  - title: Talk 4
+    description: Talk 4 description
     time: 19:40 - 19:45
     leads:
-    - Speaker #4
+    - Speaker 4
   - title: BREAK
     description: null
     time: 19:50 - 20:30
-  - title: Talk #5
-    description: Talk #5 description
+  - title: Talk 5
+    description: Talk 5 description
     time: 20:30 - 20:35
     leads:
-    - Speaker #5    
-  - title: Talk #6
-    description: Talk #6 description
+    - Speaker 5    
+  - title: Talk 6
+    description: Talk 6 description
     time: 20:35 - 20:40
     leads:
-    - Speaker #6
-  - title: Talk #7
-    description: Talk #7 description
+    - Speaker 6
+  - title: Talk 7
+    description: Talk 7 description
     time: 20:45 - 20:50
     leads:
-    - Speaker #8
-  - title: Talk #8
-    description: Talk #8 description
+    - Speaker 8
+  - title: Talk 8
+    description: Talk 8 description
     time: 20:55 - 21:00
     leads:
-    - Speaker #8
+    - Speaker 8

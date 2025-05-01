@@ -15,12 +15,11 @@ banner:
   # - url: intro.html
   #   title: Event Jupyter Book
   #   new_window: false
-  #image: https://geohackweek.github.io/assets/images/banner.jpg
-  image: https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/Spark-NewOrleans-Graphic-Banner.png
+  image: https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/Spark-NewOrleans-Graphic-Banner-SparkStar.png
 # The opening session of the event with UTC offset
 event_countdown: "2024-08-07T08:30:00-07:00"
 about:
-  description: Ready to <i>spark</i> conversation? Spark@AGU talks are a dynamic five minutes of exactly 20 auto-advancing slides! This isn't your typical research presentation. Speakers craft engaging visuals and accessible language on any topic they choose. It's quick, bold, and creative – leave the jargon behind!
+  description: Ready to <i>spark</i> conversation? Spark @ AGU talks are a dynamic five minutes of exactly 20 auto-advancing slides! This isn't your typical research presentation. Speakers craft engaging visuals and accessible language on any topic they choose. It's quick, bold, and creative – leave the jargon behind!
   learn_more: https://www.esipfed.org/spark-agu/
   links:
     - url: '#'
@@ -39,7 +38,7 @@ sponsors:
   organizations:
   - name: NASA’s Earth Science Division
     website: https://science.nasa.gov/earth-science/
-    logo_url:
+    logo_url: https://raw.githubusercontent.com/ESIPFed/spark-2025/main/images/NASA-Logo-Large.png
 footer:
   social:
   - icon: github
