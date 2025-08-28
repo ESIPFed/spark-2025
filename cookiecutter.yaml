@@ -1,6 +1,6 @@
 repo_directory: html
 name: Spark@AGU
-favicon: assets/images/favicon.png
+favicon: assets/images/esip-favicon.png
 apply:
   url: '#'
   title: THIS SITE IS UNDER CONSTRUCTION
