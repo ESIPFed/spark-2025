@@ -1,53 +1,65 @@
 timezone: UTC -5 (Central Standard Time)
 tabs:
 - title: Day 1
-  date: Monday 07 August
+  date: Wednesday 17 December
   contents:
-  - title: Welcome
+  - title: Doors Open & Socialize
     description: Get comfortable and ready to have your mind blown!
-    time: 19:00 - 19:10
+    time: 18:30 - 19:00
     leads:
     - Aaron Friesz
-  - title: Talk 1
-    description: Talk 1 description
-    time: 19:10 - 19:15
+  - title: Speaker 1
+    description: 5-minute Spark presentation
+    time: 19:00 - 19:05
     leads:
     - Speaker 1
-  - title: Talk 2
-    description: Talk 2 description
-    time: 19:20 - 19:25
+  - title: Speaker 2
+    description: 5-minute Spark presentation
+    time: 19:06 - 19:11
     leads:
     - Speaker 2
-  - title: Talk 3
-    description: Talk 3 description
-    time: 19:30 - 19:35
+  - title: Speaker 3
+    description: 5-minute Spark presentation
+    time: 19:12 - 19:17
     leads:
     - Speaker 3
-  - title: Talk 4
-    description: Talk 4 description
-    time: 19:40 - 19:45
+  - title: Speaker 4
+    description: 5-minute Spark presentation
+    time: 19:18 - 19:23
     leads:
     - Speaker 4
-  - title: BREAK
-    description: null
-    time: 19:50 - 20:30
-  - title: Talk 5
-    description: Talk 5 description
-    time: 20:30 - 20:35
+  - title: Speaker 5
+    description: 5-minute Spark presentation
+    time: 19:24 - 19:29
     leads:
     - Speaker 5    
-  - title: Talk 6
-    description: Talk 6 description
-    time: 20:35 - 20:40
+  - title: Speaker 6
+    description: 5-minute Spark presentation
+    time: 19:30 - 19:35
     leads:
     - Speaker 6
-  - title: Talk 7
-    description: Talk 7 description
-    time: 20:45 - 20:50
+  - title: Speaker 7
+    description: 5-minute Spark presentation
+    time: 19:36 - 19:41
+    leads:
+    - Speaker 7
+  - title: Speaker 8
+    description: 5-minute Spark presentation
+    time: 19:42 - 19:47
     leads:
     - Speaker 8
-  - title: Talk 8
-    description: Talk 8 description
-    time: 20:55 - 21:00
+  - title: Speaker 9
+    description: 5-minute Spark presentation
+    time: 19:48 - 19:53
     leads:
-    - Speaker 8
+    - Speaker 9
+  - title: Speaker 10
+    description: 5-minute Spark presentation
+    time: 19:54 - 19:59
+    leads:
+    - Speaker 10
+  - title: Closing Remarks & Social
+    description: Wrap-up and networking
+    time: 19:59 - 20:45
+    leads:
+    - Aaron Friesz
