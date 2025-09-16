@@ -8,6 +8,8 @@ banner:
   description: ""
   start_date: XX Month
   end_date: XX Month
+  event_date: Wednesday, December 17
+  event_time: 6PM-8PM Local Time
   year: 2025
   location: The Chicory, New Orleans, LA
 # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
