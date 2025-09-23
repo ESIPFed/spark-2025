@@ -2,8 +2,8 @@ repo_directory: html
 name: Spark@AGU
 favicon: assets/images/esip-favicon.png
 apply:
-  url: '#'
-  title: THIS SITE IS UNDER CONSTRUCTION
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSdaQkenRP9T8fLBfzNFsvWpAchhpj340uhKdKB_oFaeFvFB6w/viewform'
+  title: Call for Speakers
 banner:
   description: ""
   start_date: XX Month
@@ -27,7 +27,10 @@ about:
     - url: 'https://www.esipfed.org/spark-agu/'
       title: A sample link
       new_window: True
-applicant_info: ADD SPEAKER APPLICATION INFORMATION AND LINKS
+applicant_info: >
+  Ready to present at Spark@AGU 2025? Apply to be a speaker!
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaQkenRP9T8fLBfzNFsvWpAchhpj340uhKdKB_oFaeFvFB6w/viewform"
+  target="_blank" class="text-white fw-bold">Submit your speaker application here</a>.
 # Redirect the site to a different domain.
 #redirect:
 #    url: https://go.somehwere.else
