@@ -1,0 +1,196 @@
+  name: 'Sync to Template'
+  
+  on:
+    # cronjob trigger (minute, hour, day, month, day-of-week; here 1st of month)
+    # schedule:
+    # - cron:  "0 0 1 * *"
+    # manual trigger
+    workflow_dispatch:
+  
+  jobs:
+    repo-sync:
+      runs-on: ubuntu-latest
+      # https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
+      permissions:
+        contents: write
+        pull-requests: write
+  
+      steps:
+        # To use this repository's private action, you must check out the repository
+        - name: Checkout
+          uses: actions/checkout@v4
+          # comment token (and add .github path to .templatesyncignore)
+          # if you do not want actions and workflows updated
+          with:
+            token: ${{ secrets.GH_PAT }}
+  
+        - name: actions-template-sync
+          uses: AndreasAugustin/actions-template-sync@v2
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            source_repo_path: uwhackweek/splashpage-template
+            upstream_branch: main # defaults to main
+            is_force_deletion: True
+            git_remote_pull_params: --allow-unrelated-histories --squash --strategy=recursive -X theirsrepo_directory: html
+  name: Spark@AGU
+  favicon: assets/images/esip-favicon.png
+  apply:
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSdaQkenRP9T8fLBfzNFsvWpAchhpj340uhKdKB_oFaeFvFB6w/viewform'
+    title: Call for Speakers
+  banner:
+    description: ""
+    start_date: XX Month
+    end_date: XX Month
+    event_date: Wednesday, December 17
+    event_time: 6:30 PM to 8:45 PM
+    year: 2025
+    location: The Chicory, New Orleans, LA
+  # Add a button link right under the top (e.g. JupyterBook, url can be local file or https://)
+    links:
+    # - url: intro.html
+    #   title: Event Jupyter Book
+    #   new_window: false
+    image: assets/images/Spark-NewOrleans-Graphic-Banner-SparkStar.png
+  # The opening session of the event with UTC offset
+  event_countdown: "2025-12-17T18:30:00-06:00"
+  about:
+    description: Ready to <b><i>spark</i></b> conversation? Spark@AGU talks are a dynamic five minutes of exactly 20 auto-advancing slides! This isn't your typical research presentation. Speakers craft engaging visuals and accessible language on any topic they choose. It's quick, bold, and creative – leave the jargon behind!
+    learn_more: https://www.esipfed.org/spark-agu/
+    links:
+      - url: 'https://www.esipfed.org/spark-agu/'
+        title: A sample link
+        new_window: True
+  applicant_info: >
+    Ready to present at Spark@AGU 2025? Apply to be a speaker!
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaQkenRP9T8fLBfzNFsvWpAchhpj340uhKdKB_oFaeFvFB6w/viewform"
+    target="_blank" class="text-white fw-bold">Submit your speaker application here</a>.
+  # Redirect the site to a different domain.
+  #redirect:
+  #    url: https://go.somehwere.else
+  team:
+    !include team/team.yaml
+  schedule:
+    !include schedule.yaml
+  sponsors:
+    description: ''
+    organizations:
+    - name: NASA’s Earth Science Division
+      website: https://science.nasa.gov/earth-science/
+      logo_url: assets/images/NASA-Logo-Large.png
+  footer:
+    social:
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/ESIPFed
+  _copy_without_render:
+  - assets
+  _extensions:
+  - jinja_markdown.MarkdownExtension
+  timezone: UTC -5 (Central Standard Time)
+  tabs:
+  - title: Day 1
+    date: Wednesday 17 December
+    contents:
+    - title: Doors Open & Socialize
+      description: Get comfortable and ready to have your mind blown!
+      time: 18:30 - 19:00
+      leads:
+      - Aaron Friesz
+    - title: Speaker 1
+      description: 5-minute Spark presentation
+      time: 19:00 - 19:05
+      leads:
+      - Speaker 1
+    - title: Speaker 2
+      description: 5-minute Spark presentation
+      time: 19:06 - 19:11
+      leads:
+      - Speaker 2
+    - title: Speaker 3
+      description: 5-minute Spark presentation
+      time: 19:12 - 19:17
+      leads:
+      - Speaker 3
+    - title: Speaker 4
+      description: 5-minute Spark presentation
+      time: 19:18 - 19:23
+      leads:
+      - Speaker 4
+    - title: Speaker 5
+      description: 5-minute Spark presentation
+      time: 19:24 - 19:29
+      leads:
+      - Speaker 5    
+    - title: Speaker 6
+      description: 5-minute Spark presentation
+      time: 19:30 - 19:35
+      leads:
+      - Speaker 6
+    - title: Speaker 7
+      description: 5-minute Spark presentation
+      time: 19:36 - 19:41
+      leads:
+      - Speaker 7
+    - title: Speaker 8
+      description: 5-minute Spark presentation
+      time: 19:42 - 19:47
+      leads:
+      - Speaker 8
+    - title: Speaker 9
+      description: 5-minute Spark presentation
+      time: 19:48 - 19:53
+      leads:
+      - Speaker 9
+    - title: Speaker 10
+      description: 5-minute Spark presentation
+      time: 19:54 - 19:59
+      leads:
+      - Speaker 10
+    - title: Closing Remarks & Social
+      description: Wrap-up and networking
+      time: 19:59 - 20:45
+      leads:
+      - Aaron Friesz
+  - title: Aaron Friesz
+    avatar: https://avatars.githubusercontent.com/amfriesz
+    role: Technical Community Director
+    organizations:
+      - name: Earth Science Information Partners (ESIP)
+        url: https://www.esipfed.org/
+    bio: 
+      Aaron is the Technical Community Director at ESIP and a Spark Organizer. His background includes ecology, GIS, remote sensing, data archiving and distribution, and community engagement.
+    expertise:
+      - GIS
+      - Remote Sensing
+      - Python
+      - Jupyter
+      - Open Science
+      - GitHub
+    social:
+      - icon: github
+        link: https://github.com/amfriesz
+      - icon: bluesky
+        link: https://bsky.app/profile/afriesz.bsky.social
+      - icon: linkedin
+        link: https://www.linkedin.com/in/aaron-friesz-32a3751a6
+    user_groups:
+      - Spark Organizer- title: Zoe Gentes
+    avatar: https://avatars.githubusercontent.com/zoegentes
+    role: Communications Director
+    organizations:
+      - name: Earth Science Information Partners (ESIP)
+        url: https://www.esipfed.org/
+    bio: 
+      Zoe is the Communications Director at ESIP and is a Spark Organizer. Her background includes geochemistry and oceanography, science writing and communication, science policy and public affairs, and content management.
+    expertise:
+      - Geochemistry
+      - Science communications
+      - Science policy
+      - Digital marketing
+    social:
+      - icon: github
+        link: https://github.com/zoegentes
+      - icon: linkedin
+        link: https://www.linkedin.com/in/zoegentes/
+    user_groups:
+      - Spark Organizer
