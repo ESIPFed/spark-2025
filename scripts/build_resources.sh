@@ -10,6 +10,7 @@ if [ -f "$JSON_FILE" ]; then
 fi
 
 ./build_team_yaml.sh
+./build_speakers_yaml.sh
 
 if [ -f "$YAML_FILE" ]; then
    echo "Converting yaml to json"

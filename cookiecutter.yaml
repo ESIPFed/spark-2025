@@ -34,6 +34,8 @@ applicant_info: >
 #    url: https://go.somehwere.else
 team:
   !include team/team.yaml
+speakers:
+  !include speakers/speakers.yaml
 schedule:
   !include schedule.yaml
 sponsors:
