@@ -1,9 +1,7 @@
 repo_directory: html
 name: Spark@AGU
 favicon: assets/images/esip-favicon.png
-apply:
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSdaQkenRP9T8fLBfzNFsvWpAchhpj340uhKdKB_oFaeFvFB6w/viewform'
-  title: Call for Speakers
+apply: false
 banner:
   description: ""
   start_date: XX Month
