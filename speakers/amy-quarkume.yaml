@@ -1,0 +1,8 @@
+- title: Amy Quarkume
+  avatar: assets/images/amy-quarkume.yaml
+  organizations:
+    - name: Howard University
+      url: 
+  talk: I Hate My Code: The Environmental Cost of Digital Bias
+  user_groups:
+    - Spark Presenter
