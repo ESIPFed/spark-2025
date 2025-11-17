@@ -3,8 +3,8 @@ description:
   Connect with them through their social media links.
 
 people:
-  - title: Aaron Friesz
-    avatar: https://avatars.githubusercontent.com/amfriesz
+  - title: Denise Hills
+    avatar: assets/images/denise-hills.png
     role: Technical Community Director
     organizations:
       - name: Earth Science Information Partners (ESIP)
@@ -28,3 +28,4 @@ people:
     user_groups:
       - Spark Organizer
       
+  
