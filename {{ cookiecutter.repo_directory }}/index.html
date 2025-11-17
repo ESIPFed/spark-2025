@@ -221,7 +221,7 @@
 <!--//about-section-->
 
 {%- if cookiecutter.speakers %}
-<section id="speakers" class="speakers-section">
+<section id="speakers-section" class="speakers-section">
     <div class="container">
         <h3 class="section-heading text-center mb-3">Meet the speakers</h3>
         <div class="section-intro text-center single-col-max mx-auto mb-5">
@@ -241,7 +241,8 @@
                     <div class="card-body">
                         <h5 class="card-title mb-2">{{ person['title'] }}</h5>
                         <div class="card-text mb-3">
-                            <div class="meta">{{ person['role'] }}</div>
+                            <div class="meta">{{ person['organizations']|map(attribute='name')|join(' | ') }}</div>
+                            <div class="meta">{{ person['talk'] }}</div>
                             <div class="meta">
                                 {%- for group in person['user_groups'] %}
                                 <img
@@ -250,12 +251,14 @@
                                 {%- endfor %}
                             </div>
                         </div>
+<!--
                         <!--//card-text-->
                         <a href="#{{ modal_key }}"
                            data-bs-toggle="modal"
                            data-bs-target="#{{ modal_key }}">
                             Read more &rarr;
                         </a>
+-->
                     </div>
                     <!--//card-->
                     {%- if 'social' in person %}
@@ -273,6 +276,7 @@
                     </div>
                     {%- endif %}
                 </div>
+<!--
                 <!--//card-->
                 <!-- Modal Speaker -->
                 <div class="modal modal-speaker modal-speaker-1"
@@ -302,13 +306,13 @@
                                                 alt=""/>
                                         </div>
 
-                                        <div
-                                            class="col text-center text-md-start mx-auto">
+                        <div
+                            class="col text-center text-md-start mx-auto">
                                             <h2 class="name mb-2">
                                                 {{person['title']}}
                                             </h2>
                                             <div class="meta">
-                                                {{ person['role'] }}
+                                                {{ person['talk'] }}
                                             </div>
                                             <div class="meta mb-2">
                                                 {{person['organizations']|map(attribute='name')|join(' &amp; ')}}
@@ -339,8 +343,10 @@
                                         />
                                         {%- endfor %}
                                     </div>
+                                    {%- if 'bio' in person %}
                                     {{ person['bio'] }}
-                                    {%- if person['expertise']|length > 0 %}
+                                    {%- endif %}
+                                    {%- if 'expertise' in person and person['expertise']|length > 0 %}
                                     <div class="mt-1">
                                         <h5>Interests / Expertise</h5>
                                         <ul>
@@ -359,6 +365,7 @@
                     <!--//modal-dialog-->
                 </div>
                 <!--//modal-->
+-->                
             </div>
             <!--//col-->
             {%- endfor %}
@@ -641,8 +648,10 @@
                                         />
                                         {%- endfor %}
                                     </div>
+                                    {%- if 'bio' in person %}
                                     {{ person['bio'] }}
-                                    {%- if person['expertise']|length > 0 %}
+                                    {%- endif %}
+                                    {%- if 'expertise' in person and person['expertise']|length > 0 %}
                                     <div class="mt-1">
                                         <h5>Interests / Expertise</h5>
                                         <ul>

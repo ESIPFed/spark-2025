@@ -1,31 +1,91 @@
 description:
-  Meet our amazing Spark@AGU speakers! Each speaker will deliver a dynamic 5-minute presentation with exactly 20 auto-advancing slides.
-  Connect with them through their social media links.
 
 people:
+  - title: Amy Quarkume
+    avatar: assets/images/amy-quarkume.png
+    organizations:
+      - name: Howard University
+    talk: "I Hate My Code: The Environmental Cost of Digital Bias"
+    user_groups:
+      - Spark Presenter
+  
+  - title: Cibele Amaral
+    avatar: assets/images/cibele-amaral.png
+    organizations:
+      - name: ESIIL, CIRES/Earth Lab, University of Colorado Boulder 
+    talk: Driving Transformative Environmental Science in the Open Data & AI Era
+    user_groups:
+      - Spark Presenter
+  
   - title: Denise Hills
     avatar: assets/images/denise-hills.png
-    role: Technical Community Director
     organizations:
-      - name: Earth Science Information Partners (ESIP)
-        url: https://www.esipfed.org/
-    bio: 
-      Aaron is the Technical Community Director at ESIP and a Spark Organizer. His background includes ecology, GIS, remote sensing, data archiving and distribution, and community engagement.
-    expertise:
-      - GIS
-      - Remote Sensing
-      - Python
-      - Jupyter
-      - Open Science
-      - GitHub
-    social:
-      - icon: github
-        link: https://github.com/amfriesz
-      - icon: bluesky
-        link: https://bsky.app/profile/afriesz.bsky.social
-      - icon: linkedin
-        link: https://www.linkedin.com/in/aaron-friesz-32a3751a6
+      - name: Advanced Resources International, Inc.
+    talk: "Purr-suasive Engagement: The Cat's Playbook to Better Dialogue"
     user_groups:
-      - Spark Organizer
-      
+      - Spark Presenter
+  
+  - title: Joan Jungbin Lee
+    avatar: assets/images/joan-jungbin-lee.png
+    organizations:
+      - name: trubel&co
+    talk: "Map It to Make It: Let's Redraw Our Neighborhoods' Futures!"
+    user_groups:
+      - Spark Presenter
+  
+  - title: Keenan Ganz
+    avatar: assets/images/keenan-ganz.png
+    organizations:
+      - name: University of Washington
+    talk: Dead trees and where to find them
+    user_groups:
+      - Spark Presenter
+  
+  - title: Nayani Ilangakoon
+    avatar: assets/images/nayani-ilangakoon.png
+    organizations:
+      - name: CIRES, Earth Lab, University of Colorado Boulder
+    talk: "The Heartbeat of Nature: Listening Before It Fades"
+    user_groups:
+      - Spark Presenter
+  
+  - title: Olivia Zhang
+    avatar: assets/images/olivia-zhang.png
+    organizations:
+      - name: trubel&co
+    talk: "Map It to Make It: Let's Redraw Our Neighborhoods' Futures!"
+    user_groups:
+      - Spark Presenter
+  
+  - title: Richard Eckman
+    avatar: assets/images/richard-eckman.png
+    organizations:
+      - name: University of Maryland
+    talk: "Can't Let Go: Life After NASA Program Management"
+    user_groups:
+      - Spark Presenter
+  
+  - title: Seamus Lombardo
+    avatar: assets/images/seamus-lombardo.png
+    organizations:
+      - name: Planet Labs PBC
+    talk: Using Space to Help Life on Earth
+    user_groups:
+      - Spark Presenter
+  
+  - title: Sophia Parafina
+    avatar: assets/images/sophia-parafina.png
+    organizations:
+      - name: EarthScope Consortium
+    talk: How I Learned to Stop Worrying and Learned to Love AI
+    user_groups:
+      - Spark Presenter
+  
+  - title: Sushant Mehan
+    avatar: assets/images/sushant-mehan.png
+    organizations:
+      - name: South Dakota State University
+    talk: Chasing Water Management in the Age of Algorithms
+    user_groups:
+      - Spark Presenter
   
