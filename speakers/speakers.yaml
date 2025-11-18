@@ -1,4 +1,4 @@
-description:
+description: "Say hello to this year's incredible lineup of speakers!"
 
 people:
   - title: Amy Quarkume
@@ -56,6 +56,14 @@ people:
     talk: "Map It to Make It: Let's Redraw Our Neighborhoods' Futures!"
     user_groups:
       - Spark Presenter
+  
+  - title: Pamitha Weerasinghe
+    avatar: assets/images/pamitha-weerasinghe.png
+    organizations:
+      - name: Knowledge for a Competitive America
+    talk: Emcee
+    user_groups:
+      - Spark Emcee
   
   - title: Richard Eckman
     avatar: assets/images/richard-eckman.png
