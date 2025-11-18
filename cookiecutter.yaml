@@ -21,10 +21,6 @@ event_countdown: "2025-12-17T18:30:00-06:00"
 about:
   description: Ready to <b><i>spark</i></b> conversation? Spark@AGU talks are a dynamic five minutes of exactly 20 auto-advancing slides! This isn't your typical research presentation. Speakers craft engaging visuals and accessible language on any topic they choose. It's quick, bold, and creative – leave the jargon behind!
   learn_more: https://www.esipfed.org/spark-agu/
-  links:
-    - url: 'https://www.esipfed.org/spark-agu/'
-      title: A sample link
-      new_window: True
 applicant_info: false
 # Redirect the site to a different domain.
 #redirect:
