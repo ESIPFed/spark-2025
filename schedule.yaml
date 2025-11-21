@@ -9,57 +9,57 @@ tabs:
     leads:
     - Zoe Gentes, Pamitha Weerasinghe
   - title: "The Heartbeat of Nature: Listening Before It Fades"
-    description: 5-minute Spark presentation
+    description: Forest ecosystems have a rhythmic "heartbeat" of greening and recovery, but as they approach tipping points, this rhythm weakens, a phenomenon known as critical slowing down. Advancements in time-series remote sensing now allow scientists to detect early warning signals in satellite vegetation indices, which reveal where ecosystems are losing resilience years before large-scale transformation is visible.
     time: 19:00 - 19:05
     leads:
     - Nayani Ilangakoon
   - title: "Purr-suasive Engagement: The Cat's Playbook to Better Dialogue"
-    description: 5-minute Spark presentation
+    description: My work in geologic energy often puts me in situations where everyone seems to be angry about what might be happening. Controversial situations can be really difficult, and many scientists I know avoid engaging at all to avoid being uncomfortable or unproductive. I’m not going to avoid these situations, though. So what can I do? I’m taking some things I’ve learned from my cats ( in the areas of trust, fear, being genuine, and expecting the unexpected) and applying it to these situations.
     time: 19:06 - 19:11
     leads:
     - Denise Hills
   - title: Dead Trees and Where to Find Them
-    description: 5-minute Spark presentation
+    description: As more forests die globally from drought and insects, mapping the extent and cause of mortality is essential, but traditional sketchmapping from planes is subjective and rife with human error. While satellite data is an alternative, it often misses scattered tree death and cannot determine the cause. I will use Google Earth animations to show the perspective of an aerial surveyor, simultaneously displaying sketchmapping observations and satellite-derived mortality data. 
     time: 19:12 - 19:17
     leads:
     - Kennan Ganz
   - title: "Can't Let Go: Life After NASA Program Management"
-    description: 5-minute Spark presentation
+    description: After retiring from NASA after 37 years, I sought to maintain my connections with the atmospheric sciences community. Traveling incessantly, with a mandatory break due to ankle surgery, I've maintained my connection with the community at professional conferences and international agency teams. I’ve adapted to this new lifestyle and my first 11 months of retirement, seeking my continuing place in science.
     time: 19:18 - 19:23
     leads:
     - Richard Eckman
   - title: "Map It to Make It: Let's Redraw Our Neighborhoods' Futures"
-    description: 5-minute Spark presentation
+    description: What do you want to change about your neighborhood? How do we make our neighborhoods and communities better? At trubel&co, we navigate these questions with our young people and community organizers. We teach youth to use GIS mapping and data storytelling to understand their communities deeper, imagine an equitable future, and build our communities through civic and environmental action! 
     time: 19:24 - 19:29
     leads:
     - Joan Jungbin Lee, Olivia Zhaang    
   - title: "How I Learned to Stop Worrying and Learned to Love AI"
-    description: 5-minute Spark presentation
+    description: As a geospatial and remote sensing scientist, I studied the earth with electromagnetic radiation. The techniques and concepts are roughly similar those used in seismology, but not quite. To catch up, I built a Retrieval Augmented Generation (RAG) system to summarize and elucidate journal articles to get me up to speed.
     time: 19:30 - 19:35
     leads:
     - Sophia Parafina
   - title: "I  Hate My Code: The Environmental Cost of Digital Bias"
-    description: 5-minute Spark presentation
+    description: I’ll examine how biased AI systems can exacerbate environmental injustices, particularly in marginalized communities where pollution, heat, and health risks are concentrated. Drawing on research from the CORE Futures Lab, I’ll highlight how data, algorithms, and technological design can unintentionally harm the most vulnerable, and explore strategies to make AI more equitable and community-centered.
     time: 19:36 - 19:41
     leads:
     - Amy Quarkume
   - title: Chasing Water Management in the Age of Algorithms
-    description: 5-minute Spark presentation
+    description: From growing up watching monsoons flood the fields of Punjab to managing droughts in the plains of South Dakota, my life has been a chase after water. It runs away when I need it most and floods back when I least expect it. So, I turned to algorithms for help. Today, my work combines soil sensors, satellites, and a stubborn optimism to understand how every drop behaves in our farmlands.
     time: 19:42 - 19:47
     leads:
     - Sushant Mehan
-  - title: Using Space to Help Life on Eart
-    description: 5-minute Spark presentation
+  - title: Using Space to Help Life on Earth
+    description: Planet's satellite data, analytics, and platform are using space to help life on Earth - and you can too! We're fusing cutting-edge hyperspectral satellite data with camera traps, bioacoustics, and eDNA to understand ecosystem change in the Amazon rainforest. We’re also using AI to rapidly map building damage for humanitarian organizations in areas of disaster and conflict. 
     time: 19:48 - 19:53
-    leads:
+    leads: 
     - Seamus Lombardo
   - title: Driving Transformative Environmental Science in the Open Data & AI Era
-    description: 5-minute Spark presentation
+    description:  
     time: 19:54 - 19:59
-    leads:
+    leads: As a Latina forest engineer, my career has shown me both the urgency and the possibility of bridging silos. Global challenges require scientists who can work across domains, scales, and cultures. Yet our infrastructure, training, and incentive systems remain fragmented, limiting the transformative science we need. By navigating both technology and collaboration, we can advance truly interconnected and transformative environmental science in the era of open data and AI.
     - Cibele Amaral
   - title: Closing Remarks & Social
-    description: Wrap-up and networking
+    description: Closing remarks and networking
     time: 19:59 - 20:45
     leads:
     - Pamitha Weerasinghe, Zoe Gentes
